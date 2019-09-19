@@ -10,6 +10,6 @@ router.get('/api/clients/:idName', getUserByIdName);
 //Get the list of policies linked to a user name
 router.get('/api/policies/:clientName', getPolicyByUser);
 //Get the user linked to a policy number
-router.get('/api/client/:policyId', getUserByPolicy);
+router.get('/api/policies/client/:policyId', getUserByPolicy);
 
 module.exports = router;
